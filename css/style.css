@@ -52,5 +52,26 @@ a, i{
     color: #444;
 }
 #navbar a:hover{
-    color: #1c63e7;
+    color: #1c1fe7;
+}
+/*Imagem home*/
+.main-image{
+    height: 400px;
+    width: 90%;
+    background-image: url("../img/g_1.jpg");
+    position: relative;
+}
+#main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-image-info{
+    background-color: #FFF;
+    padding: 25px;
+    align-self: end;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
 }
